@@ -489,6 +489,9 @@ nav{
   font-family: fantasy;
   font-size: 30px;
 }
+.footer__description{
+  font-family: fantasy;
+}
 .footer__content,
 .footer__links{
   display: grid;
@@ -555,6 +558,7 @@ nav{
 .footer__privacy{
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
+  font-family: fantasy;
 }
 
 /*=============== SCROLL BAR ===============*/
@@ -586,6 +590,9 @@ nav{
 }
 .scrollup:hover{
   transform: translateY(-.25rem);
+  box-shadow:rgb(255, 255, 255) 0 0.0em 0.60em;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
 }
 
 /* Show Scroll Up*/
