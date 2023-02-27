@@ -487,6 +487,9 @@ nav{
   font-weight: var(--font-medium);
   display: inline-block;
   margin-bottom: .75rem;
+  text-shadow:  rgb(255, 255, 255) 0 0.0em 0.80em;
+  font-family: fantasy;
+  font-size: 30px;
 }
 .footer__content,
 .footer__links{
@@ -499,6 +502,9 @@ nav{
 .footer__title{
   font-size: var(--h3-font-size);
   margin-bottom: 1.25rem;
+  text-shadow:  rgb(255, 255, 255) 0 0.0em 0.80em;
+  font-family: fantasy;
+  font-size: 25px;
 }
 .footer__links{
   row-gap: .75rem;
