@@ -372,6 +372,12 @@ nav{
   column-gap: 2rem;
   position: absolute;
 }
+.image-collection{
+  box-shadow:rgb(255, 255, 255) 0 0.0em 0.60em;
+  border: 2px solid #ffffff;
+  text-shadow:  rgb(255, 255, 255) 0 0.0em 0.80em;
+  border-radius: 10px;
+}
 .collection__explore:nth-child(2){
   grid-template-columns: 230px max-content;
   bottom: 1rem;
