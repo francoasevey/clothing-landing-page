@@ -344,9 +344,6 @@ nav{
 }
 .new__link:hover i{
   transform: translateX(.25rem);
-  box-shadow:rgb(255, 255, 255) 0 0.0em 0.60em;
-  border: 2px solid #ffffff;
-  color: rgb(255, 255, 255);
   color: var(--title-color);
   box-shadow:rgb(255, 255, 255) 0 0.0em 0.60em;
   border: 2px solid #ffffff;
@@ -367,6 +364,8 @@ nav{
 .collection__title{
   font-size: var(--h1-font-size);
   margin-bottom: .75rem;
+  text-shadow:  rgb(255, 255, 255) 0 0.0em 0.20em;
+  font-family: fantasy;
 }
 .collection__explore{
   display: grid;
