@@ -333,8 +333,24 @@ nav{
   font-size: var(--smaller-font-size);
   color: var(--text-color);
 }
+.winter-collection{
+  color: var(--title-color);
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+  font-size: 20px;
+  text-shadow:  rgb(255, 255, 255) 0 0.0em 0.80em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .new__link:hover i{
   transform: translateX(.25rem);
+  box-shadow:rgb(255, 255, 255) 0 0.0em 0.60em;
+  border: 2px solid #ffffff;
+  color: rgb(255, 255, 255);
+  color: var(--title-color);
+  box-shadow:rgb(255, 255, 255) 0 0.0em 0.60em;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
 }
 /*=============== COLLECTION ===============*/
 .collection{
