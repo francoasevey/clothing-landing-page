@@ -412,7 +412,6 @@ nav{
 .products__title{
   font-size: var(--h3-font-size);
   margin-bottom:  .75rem;
-  text-shadow:  rgb(255, 255, 255) 0 0.0em 0.30em;
   font-family: fantasy;
   font-size: 25px;
 }
@@ -487,7 +486,6 @@ nav{
   font-weight: var(--font-medium);
   display: inline-block;
   margin-bottom: .75rem;
-  text-shadow:  rgb(255, 255, 255) 0 0.0em 0.80em;
   font-family: fantasy;
   font-size: 30px;
 }
@@ -502,7 +500,6 @@ nav{
 .footer__title{
   font-size: var(--h3-font-size);
   margin-bottom: 1.25rem;
-  text-shadow:  rgb(255, 255, 255) 0 0.0em 0.80em;
   font-family: fantasy;
   font-size: 25px;
 }
@@ -515,11 +512,14 @@ nav{
 }
 .footer__link{
   color: var(--text-color);
-  transition: .3s;
+  transition: .1s;
+  font-family: fantasy;
 }
 .footer__link:hover{
   text-decoration: underline;
   color: var(--title-color);
+  text-shadow:  rgb(255, 255, 255) 0 0.0em 0.80em;
+  font-family: fantasy;
 }
 .footer__social{
   display: flex;
