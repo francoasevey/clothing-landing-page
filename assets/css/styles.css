@@ -404,6 +404,10 @@ nav{
 }
 .products__img{
   margin-bottom: 1rem;
+  box-shadow:rgb(255, 255, 255) 0 0.0em 0.60em;
+  border: 2px solid #ffffff;
+  text-shadow:  rgb(255, 255, 255) 0 0.0em 0.80em;
+  border-radius: 10px;
 }
 .products__title{
   font-size: var(--h3-font-size);
