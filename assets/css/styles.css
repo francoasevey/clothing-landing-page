@@ -308,6 +308,10 @@ nav{
 .new__img{
   width: 270px;
   margin-bottom: 1rem;
+  box-shadow:rgb(255, 255, 255) 0 0.0em 0.60em;
+  border: 2px solid #ffffff;
+  text-shadow:  rgb(255, 255, 255) 0 0.0em 0.80em;
+  border-radius: 10px;
 }
 .new__link{
   display: flex;
