@@ -470,6 +470,9 @@ nav{
 }
 .brand__img{
   width: 120px;
+  box-shadow:rgb(255, 255, 255) 0 0.0em 0.40em;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
 }
 .brand__img:nth-child(even){
   margin-top: 2rem;
