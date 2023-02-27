@@ -509,6 +509,8 @@ nav{
 .footer__link,
 .footer__information{
   font-size: var(--small-font-size);
+  font-family: fantasy;
+  font-size: 20px;
 }
 .footer__link{
   color: var(--text-color);
@@ -532,6 +534,11 @@ nav{
   background-color: var(--container-color);
   font-size: 1.25rem;
   transition: background-color .3s;
+}
+.footer__social-link:hover{
+  box-shadow:rgb(255, 255, 255) 0 0.0em 0.60em;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
 }
 .footer__social:hover{
   background-color: var(--bg-color-light);
